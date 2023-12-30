@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap');
+.sidebar {
+    background-color: #FFFFFF;
+    height: 100vh;
+    //position: absolute;
+    width: 3.5vw;
+    border: none;
+    align-items: center; 
+    
+    >.logo {
+        padding-top: 5vh;
+        display: flex;
+        margin: auto;
+        width: 3.7vw;
+        height: 3.7vh;
+    }
+
+    >.nav {
+        padding-top: 20vh;
+        flex-direction: column;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+
+        >.nava {
+            padding-top: 5vh;
+            padding-left: 1vw;
+            outline: none;
+            color: #000 !important;
+            text-decoration: none
+            
+        }
+    }
+    
+    
+}
+
+
+
